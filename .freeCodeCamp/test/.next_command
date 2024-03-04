@@ -69,3 +69,7 @@ trap '__vsc_preexec_all "$_"' DEBUG
 __vsc_original_prompt_command=${PROMPT_COMMAND:-}
 git status -s
 git add .
+git commit -m 'Vruas pregutntas'
+git push
+pg_dump -cC --inserts -U freecodecamp universe > universe-sql
+git add .
