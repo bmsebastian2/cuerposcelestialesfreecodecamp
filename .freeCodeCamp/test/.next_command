@@ -33,3 +33,7 @@ git remote add origin https://github.com/bmsebastian2/cuerposcelestialesfreecode
 git satus -s
 git status -s
 git add .
+git status -s
+git commit -m 'Se agrego todo '
+git status -s
+git add .
