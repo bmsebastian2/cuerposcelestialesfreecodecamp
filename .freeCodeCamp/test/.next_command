@@ -73,3 +73,8 @@ git commit -m 'Vruas pregutntas'
 git push
 pg_dump -cC --inserts -U freecodecamp universe > universe-sql
 git add .
+git commit -m 'SQL PLUS'
+git push
+pg_dump -cC --inserts -U freecodecamp universe > universe-sql
+git status -s
+git add .
